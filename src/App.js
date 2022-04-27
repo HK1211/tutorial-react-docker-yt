@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -15,8 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React_compose_test_last1234
         </a>
+        <p>{`Hello ${process.env.REACT_APP_NAME}`}</p>
       </header>
     </div>
   );
